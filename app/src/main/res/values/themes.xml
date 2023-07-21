@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Define as cores primárias do app -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Define a cor do texto do app -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+
+        <!-- Define a cor de fundo do app -->
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Define a cor do botão flutuante (FloatingActionButton) -->
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+
+        <!-- Personalize outras configurações de acordo com suas necessidades -->
+
+    </style>
+</resources>
+
+

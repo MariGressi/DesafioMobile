@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Desafio Mobile</string>
+    <string name="email_label">Email: %s</string>
+    <string name="address_label">Endereço: %s</string>
+    <string name="birthday_label">Data de Nascimento: %s</string>
+    <string name="phone_label">Celular: %s</string>
+    <string name="password_label">Senha: %s</string>
+    <string name="name_label" tools:ignore="ExtraTranslation">Nome: %s</string>
+</resources>
+
+
+

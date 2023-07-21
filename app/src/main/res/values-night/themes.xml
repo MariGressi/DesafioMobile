@@ -1,0 +1,29 @@
+<resources>
+    <!-- Estilo para o modo noturno -->
+    <style name="AppThemeNight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Defina as cores primárias para o modo noturno -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+
+        <!-- Defina a cor do texto para o modo noturno -->
+        <item name="android:textColorPrimary">@color/textPrimaryNight</item>
+        <item name="android:textColorSecondary">@color/textSecondaryNight</item>
+
+        <!-- Defina a cor de fundo para o modo noturno -->
+        <item name="android:windowBackground">@color/backgroundNight</item>
+
+        <!-- Defina a cor do botão flutuante (FloatingActionButton) para o modo noturno -->
+        <item name="colorButtonNormal">@color/colorPrimaryNight</item>
+
+        <!-- Personalize outras configurações do modo noturno, se necessário -->
+
+    </style>
+</resources>
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="16dp">
+
+
+    <ImageView
+        android:id="@+id/userImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/perfil"
+        android:layout_marginVertical="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/nameIcon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:src="@drawable/perfil"
+        android:layout_below="@id/userImageView"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Ms Melissa Turner"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:layout_below="@id/userImageView"
+        android:layout_toRightOf="@id/nameIcon"
+        />
+
+
+    <ImageView
+        android:id="@+id/emailIcon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/nameIcon"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/email_icon" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="melissa.turner@example.com"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:layout_below="@id/nameTextView"
+        android:layout_toRightOf="@id/emailIcon" />
+
+
+
+    <ImageView
+        android:id="@+id/birthdayIcon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/emailIcon"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/location_icon" />
+
+    <TextView
+        android:id="@+id/birthdayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="13/10/1971"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_below="@id/emailTextView"
+        android:layout_toRightOf="@id/birthdayIcon" />
+
+    <ImageView
+        android:id="@+id/phoneIcon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/birthdayIcon"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/phone_icon" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="(751)845-1989"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:layout_below="@id/birthdayTextView"
+        android:layout_toRightOf="@id/phoneIcon" />
+
+    <ImageView
+        android:id="@+id/passwordIcon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/phoneIcon"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/password_icon" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="mama"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:layout_below="@id/phoneTextView"
+        android:layout_toRightOf="@id/passwordIcon" />
+
+    <ImageView
+        android:id="@+id/addressIcon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/passwordIcon"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/address_icon" />
+
+    <TextView
+        android:id="@+id/adressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="3299 Mockingbird Ln, Oklahoma, United States 17204"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:layout_below="@id/passwordTextView"
+        android:layout_toRightOf="@id/addressIcon" />
+
+    <Button
+        android:id="@+id/getDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/passwordTextView"
+        android:text="Novo Perfil" />
+
+</RelativeLayout>
